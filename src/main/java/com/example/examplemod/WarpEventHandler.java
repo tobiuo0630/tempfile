@@ -1,13 +1,11 @@
 package com.example.examplemod;
 
 
-import net.minecraft.gametest.framework.TestReporter;
-import net.minecraft.network.chat.Component;
+import com.example.examplemod.item.ModItems;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.event.entity.item.ItemTossEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.minecraft.server.level.ServerPlayer;
 
