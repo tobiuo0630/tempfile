@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "skn",
+    "   "
+  ],
+  "key": {
+    "s": "examplemod:sa",
+    "k": "examplemod:ka",
+    "n": "examplemod:na"
+  },
+  "result": {
+    "id": "examplemod:gyogyouken",
+    "count": 1
+  }
+}

@@ -106,6 +106,11 @@ public class ExampleMod {
 
                         output.accept(ModItems.MURATA_TICKET.get());
                         output.accept(ModItems.RETURN_TICKET.get());
+
+                        output.accept(ModItems.GYOGYOUKEN.get());
+                        output.accept(ModItems.ZOO_TOPASS.get());
+                        output.accept(ModItems.KAJU100_KEY.get());
+                        output.accept(ModItems.GURUMEKARD.get());
                     }).build());
 
     public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {

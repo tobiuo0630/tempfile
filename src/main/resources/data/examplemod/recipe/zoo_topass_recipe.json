@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "d u",
+    "   ",
+    "b t"
+  ],
+  "key": {
+    "d": "examplemod:a",
+    "u": "examplemod:u",
+    "b": "examplemod:i",
+    "t": "examplemod:tsu"
+  },
+  "result": {
+    "id": "examplemod:zoo_topass",
+    "count": 1
+  }
+}

@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import com.example.examplemod.item.ModItems;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.entity.EntityType;
@@ -12,6 +13,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.entity.item.ItemTossEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
@@ -128,6 +130,16 @@ public class ModDropHandler {
             event.getDrops().add(new ItemEntity(level,
                     entity.getX(), entity.getY(), entity.getZ(),
                     dropItem));
+        }
+    }
+
+    @SubscribeEvent
+    public static void onItemToss(ItemTossEvent event){
+        ItemStack player_drop_item = event.getEntity().getItem();
+        Item type_of_item = player_drop_item.getItem();
+
+        if(type_of_item == ModItems.MURATA_TICKET.get() || type_of_item == ModItems.RETURN_TICKET.get()){
+            event.setCanceled(true);
         }
     }
 }

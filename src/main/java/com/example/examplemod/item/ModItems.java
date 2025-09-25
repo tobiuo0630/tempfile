@@ -87,6 +87,11 @@ public class ModItems {
     public static final DeferredItem<Item> RETURN_TICKET =
             ITEMS.registerSimpleItem("return_ticket", new Item.Properties());
 
+    public static final DeferredItem<Item> GYOGYOUKEN = ITEMS.registerSimpleItem("gyogyouken",new Item.Properties());
+    public static final DeferredItem<Item> ZOO_TOPASS = ITEMS.registerSimpleItem("zoo_topass",new Item.Properties());
+    public static final DeferredItem<Item> KAJU100_KEY = ITEMS.registerSimpleItem("kaju100_key",new Item.Properties());
+    public static final DeferredItem<Item> GURUMEKARD = ITEMS.registerSimpleItem("gurumekard",new Item.Properties());
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }
