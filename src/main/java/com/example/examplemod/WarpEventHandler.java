@@ -82,9 +82,6 @@ public class WarpEventHandler {
             removeOneItem(player, ModItems.RETURN_TICKET.get());
             player.getInventory().add(new ItemStack(ModItems.MURATA_TICKET.get(),1));
         }
-
-
-
     }
 
     private static void removeOneItem(Player player, net.minecraft.world.item.Item item){
@@ -96,6 +93,5 @@ public class WarpEventHandler {
             }
         }
     }
-
 }
 

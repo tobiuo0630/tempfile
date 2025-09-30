@@ -103,6 +103,8 @@ public class ExampleMod {
                         output.accept(ModItems.YU.get());
                         output.accept(ModItems.YA.get());
                         output.accept(ModItems.N.get());
+                        output.accept(ModItems.DO.get());
+                        output.accept(ModItems.BU.get());
 
                         output.accept(ModItems.MURATA_TICKET.get());
                         output.accept(ModItems.RETURN_TICKET.get());

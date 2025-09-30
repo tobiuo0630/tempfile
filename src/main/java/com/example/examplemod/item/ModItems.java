@@ -80,6 +80,8 @@ public class ModItems {
     public static final DeferredItem<Item> YU  = ITEMS.registerSimpleItem("yu",  new Item.Properties());
     public static final DeferredItem<Item> YA  = ITEMS.registerSimpleItem("ya",  new Item.Properties());
     public static final DeferredItem<Item> N   = ITEMS.registerSimpleItem("n",   new Item.Properties());
+    public static final DeferredItem<Item> DO = ITEMS.registerSimpleItem("do",new Item.Properties());
+    public static final DeferredItem<Item> BU = ITEMS.registerSimpleItem("bu",new Item.Properties());
 
     // ワープアイテム
     public static final DeferredItem<Item> MURATA_TICKET =
