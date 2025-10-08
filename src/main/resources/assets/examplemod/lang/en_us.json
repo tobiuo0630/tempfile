@@ -64,6 +64,9 @@
   "item.examplemod.zoo_topass": "ず～っとパス",
   "item.examplemod.kaju100_key": "果汁100%キー",
   "item.examplemod.gurumekard": "グルメカード",
+
+  "entity.minecraft.villager.examplemod.hiraganaer": "Hiraganaer",
+
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",

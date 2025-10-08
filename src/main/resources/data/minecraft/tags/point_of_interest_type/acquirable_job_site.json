@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "examplemod:hiragana_poi",
+      "required": false
+    }
+  ]
+}

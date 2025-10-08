@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import com.example.examplemod.item.ModItems;
+import com.example.examplemod.villager.ModVillager;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -122,9 +123,12 @@ public class ExampleMod {
         // アイテム登録
         ModItems.register(modEventBus);
 
+
         // ブロック & タブ登録
         BLOCKS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
+
+        ModVillager.register(modEventBus);
 
         // サーバー & Forge イベント登録
         NeoForge.EVENT_BUS.register(this);
